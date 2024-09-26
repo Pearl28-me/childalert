@@ -1,0 +1,68 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+/* Header Section */
+header {
+    background-color: #e91e63; /* Pink */
+    color: #fff;
+    padding: 10px 0;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.header-top a {
+    color: #fff;
+    margin-right: 15px;
+}
+/* Hero Section */
+.hero {
+    background-image: url('https://via.placeholder.com/1200x600');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.hero button {
+    background-color: #9c27b0; /* Purple */
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+/* Causes Section */
+.causes {
+    padding: 50px 0;
+}
+.cause-card {
+    border: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+.cause-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.cause-card h4 {
+    margin-top: 20px;
+}
+/* Footer */
+footer {
+    background-color: #9c27b0; /* Purple */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
